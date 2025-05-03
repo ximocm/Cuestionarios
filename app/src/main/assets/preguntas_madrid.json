@@ -1,0 +1,104 @@
+{
+  "Madrid": [
+    {
+      "pregunta": "¿Cuál es el monumento más emblemático de Madrid?",
+      "opciones": [
+        "La Sagrada Familia",
+        "La Puerta de Alcalá",
+        "La Alhambra",
+        "La Giralda"
+      ],
+      "respuesta_correcta": "La Puerta de Alcalá"
+    },
+    {
+      "pregunta": "¿Qué museo de Madrid alberga obras como 'Las Meninas'?",
+      "opciones": [
+        "Museo Reina Sofía",
+        "Museo del Prado",
+        "Museo Guggenheim",
+        "Museo Thyssen"
+      ],
+      "respuesta_correcta": "Museo del Prado"
+    },
+    {
+      "pregunta": "¿Cómo se llama la famosa plaza central de Madrid?",
+      "opciones": [
+        "Plaza Cataluña",
+        "Plaza Mayor",
+        "Plaza Real",
+        "Plaza del Pilar"
+      ],
+      "respuesta_correcta": "Plaza Mayor"
+    },
+    {
+      "pregunta": "¿Qué equipo de fútbol tiene su estadio en el Santiago Bernabéu?",
+      "opciones": [
+        "Atlético de Madrid",
+        "Real Madrid",
+        "FC Barcelona",
+        "Valencia CF"
+      ],
+      "respuesta_correcta": "Real Madrid"
+    },
+    {
+      "pregunta": "¿Cuál es la calle más famosa para hacer compras en Madrid?",
+      "opciones": [
+        "Gran Vía",
+        "La Rambla",
+        "Paseo de Gracia",
+        "Calle Larios"
+      ],
+      "respuesta_correcta": "Gran Vía"
+    },
+    {
+      "pregunta": "¿Qué importante parque se encuentra en el centro de Madrid?",
+      "opciones": [
+        "Parque del Retiro",
+        "Parque Güell",
+        "Parque María Luisa",
+        "Parque de la Ciudadela"
+      ],
+      "respuesta_correcta": "Parque del Retiro"
+    },
+    {
+      "pregunta": "¿Cuál es el nombre de la estación de tren más importante de Madrid?",
+      "opciones": [
+        "Estación del Norte",
+        "Atocha",
+        "Sants",
+        "Chamartín"
+      ],
+      "respuesta_correcta": "Atocha"
+    },
+    {
+      "pregunta": "¿Qué famosa figura se encuentra en el escudo de Madrid?",
+      "opciones": [
+        "Un oso y un madroño",
+        "Un león",
+        "Una gaviota",
+        "Un toro"
+      ],
+      "respuesta_correcta": "Un oso y un madroño"
+    },
+    {
+      "pregunta": "¿Dónde se celebra la tradicional toma de las uvas en Nochevieja en Madrid?",
+      "opciones": [
+        "Puerta de Alcalá",
+        "Plaza Mayor",
+        "Puerta del Sol",
+        "Plaza de España"
+      ],
+      "respuesta_correcta": "Puerta del Sol"
+    },
+    {
+      "pregunta": "¿Cuál es el nombre del aeropuerto principal de Madrid?",
+      "opciones": [
+        "Aeropuerto de Barajas",
+        "Aeropuerto de El Prat",
+        "Aeropuerto de Málaga",
+        "Aeropuerto de Sevilla"
+      ],
+      "respuesta_correcta": "Aeropuerto de Barajas"
+    }
+  ]
+}

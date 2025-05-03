@@ -1,0 +1,55 @@
+{
+    "Córdoba": [
+      {
+        "pregunta": "¿Cuál es el monumento más famoso de Córdoba?",
+        "opciones": ["La Mezquita-Catedral", "El Alcázar de los Reyes Cristianos", "El Templo Romano", "La Sinagoga de Córdoba"],
+        "respuesta_correcta": "La Mezquita-Catedral"
+      },
+      {
+        "pregunta": "¿Qué río atraviesa la ciudad de Córdoba?",
+        "opciones": ["Río Guadalquivir", "Río Ebro", "Río Tajo", "Río Genil"],
+        "respuesta_correcta": "Río Guadalquivir"
+      },
+      {
+        "pregunta": "¿Qué tipo de arquitectura predomina en la Mezquita-Catedral de Córdoba?",
+        "opciones": ["Islámica y renacentista", "Románica", "Gótica", "Barroca"],
+        "respuesta_correcta": "Islámica y renacentista"
+      },
+      {
+        "pregunta": "¿Cómo se llama el famoso puente romano de Córdoba?",
+        "opciones": ["Puente Romano de Córdoba", "Puente de Triana", "Puente del Alamillo", "Puente de la Constitución"],
+        "respuesta_correcta": "Puente Romano de Córdoba"
+      },
+      {
+        "pregunta": "¿Qué importante figura histórica está enterrada en la Mezquita-Catedral?",
+        "opciones": ["Abderramán I", "Fernando el Santo", "Isabel la Católica", "Ramiro II"],
+        "respuesta_correcta": "Abderramán I"
+      },
+      {
+        "pregunta": "¿Qué famoso barrio de Córdoba es conocido por sus calles estrechas y casas blancas con patios decorados?",
+        "opciones": ["La Judería", "El Alcázar", "El Arenal", "El Bario del Pilar"],
+        "respuesta_correcta": "La Judería"
+      },
+      {
+        "pregunta": "¿En qué mes se celebra la famosa Fiesta de los Patios en Córdoba?",
+        "opciones": ["Mayo", "Junio", "Agosto", "Septiembre"],
+        "respuesta_correcta": "Mayo"
+      },
+      {
+        "pregunta": "¿Qué lugar en Córdoba es conocido como el ‘Edificio de los Leones’?",
+        "opciones": ["El Alcázar de los Reyes Cristianos", "La Sinagoga", "El Palacio de Viana", "La Torre de la Calahorra"],
+        "respuesta_correcta": "El Alcázar de los Reyes Cristianos"
+      },
+      {
+        "pregunta": "¿Cómo se llama el famoso patio de Córdoba donde se celebra el Concurso de Patios?",
+        "opciones": ["Patio de las Tendillas", "Patio de los Naranjos", "Patio de los Leones", "Patio de la Fuente"],
+        "respuesta_correcta": "Patio de los Naranjos"
+      },
+      {
+        "pregunta": "¿Qué celebración religiosa tiene lugar cada mayo en Córdoba?",
+        "opciones": ["La Semana Santa", "La Feria de Córdoba", "La Fiesta de los Patios", "La Fiesta de San Sebastián"],
+        "respuesta_correcta": "La Fiesta de los Patios"
+      }
+    ]
+  }
+  

@@ -1,0 +1,54 @@
+{
+  "Valencia": [
+    {
+      "pregunta": "¿Cuál es el nombre del complejo arquitectónico moderno más famoso de Valencia?",
+      "opciones": ["La Ciudad de las Artes y las Ciencias", "El Parque de la Albufera", "El Oceanográfico", "La Marina Real"],
+      "respuesta_correcta": "La Ciudad de las Artes y las Ciencias"
+    },
+    {
+      "pregunta": "¿Qué plato tradicional es originario de Valencia?",
+      "opciones": ["Paella", "Gazpacho", "Tortilla española", "Fabada"],
+      "respuesta_correcta": "Paella"
+    },
+    {
+      "pregunta": "¿Qué gran fiesta se celebra cada marzo en Valencia?",
+      "opciones": ["La Feria de Abril", "San Fermín", "Las Fallas", "La Tomatina"],
+      "respuesta_correcta": "Las Fallas"
+    },
+    {
+      "pregunta": "¿Cómo se llama el acuario más grande de Europa situado en Valencia?",
+      "opciones": ["Oceanogràfic", "Acuario de Barcelona", "Marineland", "L'Oceanum"],
+      "respuesta_correcta": "Oceanogràfic"
+    },
+    {
+      "pregunta": "¿Cuál es el nombre del río cuyo cauce fue desviado y ahora es un gran jardín en Valencia?",
+      "opciones": ["Río Júcar", "Río Turia", "Río Ebro", "Río Segura"],
+      "respuesta_correcta": "Río Turia"
+    },
+    {
+      "pregunta": "¿Qué bebida típica valenciana se elabora a base de chufa?",
+      "opciones": ["Horchata", "Sidra", "Cava", "Agua de Valencia"],
+      "respuesta_correcta": "Horchata"
+    },
+    {
+      "pregunta": "¿Qué importante edificio se usaba para el comercio de seda en Valencia?",
+      "opciones": ["La Lonja de la Seda", "El Mercado Central", "La Alhóndiga", "El Palacio de Congresos"],
+      "respuesta_correcta": "La Lonja de la Seda"
+    },
+    {
+      "pregunta": "¿Qué playa urbana es muy popular en Valencia?",
+      "opciones": ["La Malvarrosa", "La Concha", "Playa de Levante", "Cala Comte"],
+      "respuesta_correcta": "La Malvarrosa"
+    },
+    {
+      "pregunta": "¿Qué estilo arquitectónico tiene la Estación del Norte de Valencia?",
+      "opciones": ["Modernista", "Gótico", "Barroco", "Románico"],
+      "respuesta_correcta": "Modernista"
+    },
+    {
+      "pregunta": "¿Qué bebida alcohólica típica se prepara con cava y zumo de naranja?",
+      "opciones": ["Agua de Valencia", "Tinto de verano", "Rebujito", "Calimocho"],
+      "respuesta_correcta": "Agua de Valencia"
+    }
+  ]
+}

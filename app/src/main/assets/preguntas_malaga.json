@@ -1,0 +1,55 @@
+{
+    "Málaga": [
+      {
+        "pregunta": "¿Qué famoso pintor nació en Málaga?",
+        "opciones": ["Pablo Picasso", "Salvador Dalí", "Joan Miró", "Francisco de Goya"],
+        "respuesta_correcta": "Pablo Picasso"
+      },
+      {
+        "pregunta": "¿Cómo se llama el museo dedicado a Picasso en Málaga?",
+        "opciones": ["Museo Picasso Málaga", "Museo del Prado", "Museo Reina Sofía", "Museo Thyssen"],
+        "respuesta_correcta": "Museo Picasso Málaga"
+      },
+      {
+        "pregunta": "¿Cuál es la principal fortaleza musulmana de Málaga?",
+        "opciones": ["La Alcazaba", "La Alhambra", "El Alcázar", "La Cartuja"],
+        "respuesta_correcta": "La Alcazaba"
+      },
+      {
+        "pregunta": "¿Qué montaña se encuentra al norte de la ciudad y ofrece vistas panorámicas?",
+        "opciones": ["Monte Gibralfaro", "Montjuic", "Tibidabo", "La Maroma"],
+        "respuesta_correcta": "Monte Gibralfaro"
+      },
+      {
+        "pregunta": "¿Cómo se llama el famoso paseo marítimo de Málaga?",
+        "opciones": ["Paseo del Parque", "La Rambla", "Paseo Marítimo de la Concha", "Paseo de los Tristes"],
+        "respuesta_correcta": "Paseo del Parque"
+      },
+      {
+        "pregunta": "¿Qué fiesta importante se celebra en agosto en Málaga?",
+        "opciones": ["Feria de Málaga", "Feria de Abril", "San Fermín", "Fallas"],
+        "respuesta_correcta": "Feria de Málaga"
+      },
+      {
+        "pregunta": "¿Qué puerto moderno se ha convertido en un centro turístico en Málaga?",
+        "opciones": ["Muelle Uno", "Puerto Olímpico", "Puerto Banús", "Puerto Real"],
+        "respuesta_correcta": "Muelle Uno"
+      },
+      {
+        "pregunta": "¿Qué tipo de vino dulce es típico de Málaga?",
+        "opciones": ["Vino de Málaga", "Ribera del Duero", "Albariño", "Cava"],
+        "respuesta_correcta": "Vino de Málaga"
+      },
+      {
+        "pregunta": "¿Qué nombre recibe el teatro romano ubicado en el centro de Málaga?",
+        "opciones": ["Teatro Romano de Málaga", "Teatro Romano de Mérida", "Teatro Romano de Cartagena", "Teatro de la Maestranza"],
+        "respuesta_correcta": "Teatro Romano de Málaga"
+      },
+      {
+        "pregunta": "¿Qué cadena montañosa rodea Málaga por el norte?",
+        "opciones": ["Montes de Málaga", "Sierra Morena", "Sierra Nevada", "Sistema Central"],
+        "respuesta_correcta": "Montes de Málaga"
+      }
+    ]
+  }
+  
