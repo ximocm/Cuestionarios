@@ -13,5 +13,6 @@ fun AppNavHost(navController: NavHostController) {
         composable(Screen.Home.route) { HomeScreen(navController) }
         composable(Screen.Questionary.route) { QuestionaryScreen(navController) }
         composable(Screen.User.route) { UserScreen() }
+        composable(Screen.LocationQuestionary.route) { LocationQuestionaryScreen(navController) }
     }
 }

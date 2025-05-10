@@ -14,6 +14,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.cuestionarios.QuizApplication
+import com.example.cuestionarios.data.db.entities.HasAnswer
 import com.example.cuestionarios.data.db.entities.Question
 import kotlinx.coroutines.launch
 import kotlin.random.Random
@@ -83,8 +84,10 @@ fun QuestionaryScreen(navController: NavController) {
         Text(question.question, style = MaterialTheme.typography.titleLarge)
         Spacer(modifier = Modifier.height(24.dp))
 
-        question.answers.forEach { answer ->
-            val bgColor = when {
+        val shuffledAnswers by remember(currentIndex) { mutableStateOf(question.answers.shuffled()) }
+
+        shuffledAnswers.forEach { answer ->
+        val bgColor = when {
                 !showResult -> Color.Transparent
                 answer == selectedAnswer && answer == question.correct -> Color(0xFFB9F6CA) // Verde
                 answer == selectedAnswer && answer != question.correct -> Color(0xFFFF8A80) // Rojo
@@ -99,8 +102,24 @@ fun QuestionaryScreen(navController: NavController) {
                     .clickable(enabled = !showResult && selectedAnswer == null) {
                         selectedAnswer = answer
                         showResult = true
-                        if (answer == question.correct) {
+                        val isCorrect = answer == question.correct
+                        if (isCorrect) {
                             correctCount++
+                        }
+
+                        scope.launch {
+                            val db = QuizApplication.database
+                            val user = db.userDao().getByUsername("prueba")
+                            if (user != null) {
+                                db.hasAnswerDao().insert(
+                                    HasAnswer(
+                                        id_question = question.id,
+                                        id_user = user.id,
+                                        answer = answer,
+                                        correct = isCorrect
+                                    )
+                                )
+                            }
                         }
                     },
                 colors = CardDefaults.cardColors(
@@ -126,12 +145,22 @@ fun QuestionaryScreen(navController: NavController) {
                         selectedAnswer = null
                         showResult = false
                     } else {
-                        finished = true
+                        scope.launch {
+                            val db = QuizApplication.database
+                            val user = db.userDao().getByUsername("prueba")
+                            val incorrectCount = 3 - correctCount
+                            if (user != null) {
+                                db.userDao().updateStats(user.id, correctCount, incorrectCount)
+                                // ✅ Actualizar timestamp del quiz diario
+                                db.userDao().updateLastDailyQuiz(user.id, System.currentTimeMillis())
+                            }
+                            finished = true
+                        }
                     }
                 },
                 modifier = Modifier.align(Alignment.CenterHorizontally)
             ) {
-                Text("Next")
+                Text(if (currentIndex < 2) "Next" else "Finish")
             }
         }
     }

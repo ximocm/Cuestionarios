@@ -11,32 +11,41 @@ import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import kotlinx.coroutines.delay
 import com.example.cuestionarios.navigation.Screen
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.painterResource
+import com.example.cuestionarios.R
 
 @Composable
 fun SplashScreen(navController: NavController) {
-    // Automatically navigate to Home screen after 2 seconds
+    val context = LocalContext.current
+
     LaunchedEffect(Unit) {
-        delay(2000)
+        delay(2000) // tiempo de espera
         navController.navigate(Screen.Home.route) {
-            popUpTo(Screen.Splash.route) { inclusive = true } // remove splash from back stack
+            popUpTo(Screen.Splash.route) { inclusive = true }
         }
     }
 
-    // UI Content: App title and loading text centered on the screen
     Box(
-        modifier = Modifier.fillMaxSize(),
+        modifier = Modifier
+            .fillMaxSize()
+            .background(MaterialTheme.colorScheme.background),
         contentAlignment = Alignment.Center
     ) {
         Column(horizontalAlignment = Alignment.CenterHorizontally) {
+            Image(
+                painter = painterResource(id = R.drawable.logo),
+                contentDescription = "App Logo",
+                modifier = Modifier
+                    .size(128.dp)
+                    .padding(bottom = 24.dp)
+            )
             Text(
                 text = "Quiz App",
-                style = MaterialTheme.typography.headlineLarge,
-                fontSize = 32.sp
-            )
-            Spacer(modifier = Modifier.height(16.dp))
-            Text(
-                text = "Loading...",
-                style = MaterialTheme.typography.bodyMedium
+                style = MaterialTheme.typography.headlineLarge
             )
         }
     }

@@ -13,4 +13,7 @@ interface QuestionDao {
 
     @Query("SELECT EXISTS(SELECT 1 FROM questions WHERE question = :text AND city_id = :cityId)")
     suspend fun exists(text: String, cityId: Int): Boolean
+
+    @Query("SELECT * FROM questions WHERE id = :id LIMIT 1")
+    suspend fun getById(id: Int): Question?
 }

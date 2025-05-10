@@ -70,6 +70,17 @@ dependencies {
     //Material
     implementation(libs.androidx.material.icons)
 
+    implementation ("com.google.android.gms:play-services-location:21.0.1")
+    implementation ("androidx.core:core-ktx:1.10.1")
+    implementation ("androidx.activity:activity-compose:1.7.2")
+    implementation ("com.google.accompanist:accompanist-permissions:0.28.0")
+    implementation ("com.google.android.gms:play-services-location:21.0.1")
+
+
+    //Graph
+    implementation("com.patrykandpatrick.vico:compose:1.13.0")
+    implementation("com.patrykandpatrick.vico:compose-m3:1.13.0")
+
     //Coroutines
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0")
 

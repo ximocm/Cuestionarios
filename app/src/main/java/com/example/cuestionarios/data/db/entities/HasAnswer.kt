@@ -14,5 +14,6 @@ import androidx.room.ForeignKey
 data class HasAnswer(
     val id_question: Int,
     val id_user: Int,
-    val answer: String
+    val answer: String,
+    val correct: Boolean
 )
