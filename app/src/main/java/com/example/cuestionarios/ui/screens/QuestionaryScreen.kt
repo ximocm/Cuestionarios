@@ -18,6 +18,8 @@ import com.example.cuestionarios.data.db.entities.HasAnswer
 import com.example.cuestionarios.data.db.entities.Question
 import kotlinx.coroutines.launch
 import kotlin.random.Random
+import android.media.MediaPlayer
+import com.example.cuestionarios.R
 
 @Composable
 fun QuestionaryScreen(navController: NavController) {
@@ -30,6 +32,8 @@ fun QuestionaryScreen(navController: NavController) {
     var showResult by remember { mutableStateOf(false) }
     var correctCount by remember { mutableStateOf(0) }
     var finished by remember { mutableStateOf(false) }
+    val mediaPlayerCorrect = remember { MediaPlayer.create(context, R.raw.correct) }
+    val mediaPlayerWrong = remember { MediaPlayer.create(context, R.raw.wrong) }
 
     // Cargar preguntas una sola vez
     LaunchedEffect(Unit) {
@@ -105,6 +109,10 @@ fun QuestionaryScreen(navController: NavController) {
                         val isCorrect = answer == question.correct
                         if (isCorrect) {
                             correctCount++
+                            mediaPlayerCorrect.start()
+                        }
+                        else {
+                            mediaPlayerWrong.start()
                         }
 
                         scope.launch {

@@ -10,7 +10,7 @@ import com.example.cuestionarios.data.db.entities.*
 
 @Database(
     entities = [City::class, Question::class, User::class, HasAnswer::class],
-    version = 8,
+    version = 9,
     exportSchema = false
 )
 @TypeConverters(Converters::class)

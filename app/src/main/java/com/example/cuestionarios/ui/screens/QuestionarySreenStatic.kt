@@ -14,18 +14,24 @@ import com.example.cuestionarios.QuizApplication
 import com.example.cuestionarios.data.db.entities.HasAnswer
 import com.example.cuestionarios.data.db.entities.Question
 import kotlinx.coroutines.launch
+import android.media.MediaPlayer
+import com.example.cuestionarios.R
+import androidx.compose.ui.platform.LocalContext
 
 @Composable
 fun QuestionaryScreenStatic(
     questions: List<Question>,
     navController: NavController
 ) {
+    val context = LocalContext.current
     val scope = rememberCoroutineScope()
     var currentIndex by remember { mutableStateOf(0) }
     var selectedAnswer by remember { mutableStateOf<String?>(null) }
     var showResult by remember { mutableStateOf(false) }
     var correctCount by remember { mutableStateOf(0) }
     var finished by remember { mutableStateOf(false) }
+    val mediaPlayerCorrect = remember { MediaPlayer.create(context, R.raw.correct) }
+    val mediaPlayerWrong = remember { MediaPlayer.create(context, R.raw.wrong) }
 
     if (finished) {
         Column(
@@ -78,7 +84,13 @@ fun QuestionaryScreenStatic(
                         selectedAnswer = answer
                         showResult = true
                         val isCorrect = answer == question.correct
-                        if (isCorrect) correctCount++
+                        if (isCorrect) {
+                            correctCount++
+                            mediaPlayerCorrect.start()
+                        }
+                        else {
+                            mediaPlayerWrong.start()
+                        }
 
                         scope.launch {
                             val db = QuizApplication.database
