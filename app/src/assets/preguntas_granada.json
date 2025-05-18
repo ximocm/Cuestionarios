@@ -1,0 +1,55 @@
+{
+    "Granada": [
+      {
+        "pregunta": "¿Cuál es el monumento más famoso de Granada?",
+        "opciones": ["La Alhambra", "La Sagrada Familia", "El Palacio Real", "El Acueducto de Segovia"],
+        "respuesta_correcta": "La Alhambra"
+      },
+      {
+        "pregunta": "¿Qué río atraviesa la ciudad de Granada?",
+        "opciones": ["Río Genil", "Río Ebro", "Río Guadalquivir", "Río Tajo"],
+        "respuesta_correcta": "Río Genil"
+      },
+      {
+        "pregunta": "¿Qué tipo de arquitectura predominante se encuentra en la Alhambra?",
+        "opciones": ["Islámica", "Renacentista", "Barroca", "Gótica"],
+        "respuesta_correcta": "Islámica"
+      },
+      {
+        "pregunta": "¿Cómo se llama el famoso barrio árabe de Granada?",
+        "opciones": ["Albaicín", "La Albufera", "El Raval", "La Ribera"],
+        "respuesta_correcta": "Albaicín"
+      },
+      {
+        "pregunta": "¿Qué importante rey musulmán mandó construir la Alhambra?",
+        "opciones": ["Abu Inan Faris", "Ismail I", "Muhammad I", "Yusuf I"],
+        "respuesta_correcta": "Yusuf I"
+      },
+      {
+        "pregunta": "¿Qué famosa fiesta se celebra en Granada en junio?",
+        "opciones": ["Corpus Christi", "Fiestas de la Virgen de las Angustias", "La Feria", "Festival Internacional de Música y Danza"],
+        "respuesta_correcta": "Festival Internacional de Música y Danza"
+      },
+      {
+        "pregunta": "¿Qué famoso general musulmán se enterró en la Alhambra?",
+        "opciones": ["Boabdil", "Tarik ibn Ziyad", "Abderramán I", "Ibn Rushd"],
+        "respuesta_correcta": "Boabdil"
+      },
+      {
+        "pregunta": "¿En qué año terminó la Reconquista con la toma de Granada por los Reyes Católicos?",
+        "opciones": ["1492", "1478", "1504", "1531"],
+        "respuesta_correcta": "1492"
+      },
+      {
+        "pregunta": "¿Qué famosa vista panorámica se puede disfrutar desde el mirador de San Nicolás?",
+        "opciones": ["La Alhambra y Sierra Nevada", "La Giralda y la Catedral de Sevilla", "La Sagrada Familia y el Mar Mediterráneo", "El Acueducto y el Valle del Ebro"],
+        "respuesta_correcta": "La Alhambra y Sierra Nevada"
+      },
+      {
+        "pregunta": "¿Qué plato típico granadino se hace con habas y carne de cerdo?",
+        "opciones": ["Potaje de Habas", "Paella", "Cocido madrileño", "Callos a la madrileña"],
+        "respuesta_correcta": "Potaje de Habas"
+      }
+    ]
+  }
+  

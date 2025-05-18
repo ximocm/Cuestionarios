@@ -1,0 +1,55 @@
+{
+    "Bilbao": [
+      {
+        "pregunta": "¿Qué famoso museo se encuentra en Bilbao?",
+        "opciones": ["Museo Guggenheim", "Museo del Prado", "Museo Reina Sofía", "Museo Thyssen"],
+        "respuesta_correcta": "Museo Guggenheim"
+      },
+      {
+        "pregunta": "¿Qué río atraviesa la ciudad de Bilbao?",
+        "opciones": ["Río Nervión", "Río Ebro", "Río Duero", "Río Tajo"],
+        "respuesta_correcta": "Río Nervión"
+      },
+      {
+        "pregunta": "¿Qué famoso puente de Bilbao es conocido por su arquitectura moderna?",
+        "opciones": ["Puente Zubizuri", "Puente de Triana", "Puente de la Constitución", "Puente Romano"],
+        "respuesta_correcta": "Puente Zubizuri"
+      },
+      {
+        "pregunta": "¿Qué evento cultural de gran renombre se celebra anualmente en Bilbao?",
+        "opciones": ["Festival de Cine de Bilbao", "Feria de Abril", "Festival de Jazz de San Sebastián", "Feria de San Isidro"],
+        "respuesta_correcta": "Festival de Cine de Bilbao"
+      },
+      {
+        "pregunta": "¿Cómo se llama el estadio del Athletic Club de Bilbao?",
+        "opciones": ["San Mamés", "Santiago Bernabéu", "Camp Nou", "La Catedral"],
+        "respuesta_correcta": "San Mamés"
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del antiguo casco histórico de Bilbao?",
+        "opciones": ["Casco Viejo", "La Ribera", "El Ensanche", "La Concha"],
+        "respuesta_correcta": "Casco Viejo"
+      },
+      {
+        "pregunta": "¿Qué tipo de arquitectura destaca en el Museo Guggenheim de Bilbao?",
+        "opciones": ["Deconstructivista", "Neoclásica", "Barroca", "Renacentista"],
+        "respuesta_correcta": "Deconstructivista"
+      },
+      {
+        "pregunta": "¿Qué comida típica se asocia con Bilbao y otras regiones del País Vasco?",
+        "opciones": ["Pintxos", "Paella", "Tortilla española", "Cochinillo"],
+        "respuesta_correcta": "Pintxos"
+      },
+      {
+        "pregunta": "¿Qué barrio de Bilbao es conocido por sus bares y restaurantes de pintxos?",
+        "opciones": ["Casco Viejo", "Abando", "Santiago", "Indautxu"],
+        "respuesta_correcta": "Casco Viejo"
+      },
+      {
+        "pregunta": "¿Qué famoso arquitecto diseñó el Museo Guggenheim de Bilbao?",
+        "opciones": ["Frank Gehry", "Zaha Hadid", "Norman Foster", "Renzo Piano"],
+        "respuesta_correcta": "Frank Gehry"
+      }
+    ]
+  }
+  

@@ -1,0 +1,55 @@
+{
+    "Zaragoza": [
+      {
+        "pregunta": "¿Cuál es el monumento religioso más conocido de Zaragoza?",
+        "opciones": ["Basílica del Pilar", "Catedral de Burgos", "La Giralda", "Monasterio de Montserrat"],
+        "respuesta_correcta": "Basílica del Pilar"
+      },
+      {
+        "pregunta": "¿Qué río atraviesa la ciudad de Zaragoza?",
+        "opciones": ["Ebro", "Tajo", "Duero", "Guadalquivir"],
+        "respuesta_correcta": "Ebro"
+      },
+      {
+        "pregunta": "¿Qué famosa fiesta se celebra en octubre en Zaragoza?",
+        "opciones": ["Fiestas del Pilar", "Feria de Abril", "San Fermín", "La Tomatina"],
+        "respuesta_correcta": "Fiestas del Pilar"
+      },
+      {
+        "pregunta": "¿Cómo se llama el palacio musulmán que se encuentra en Zaragoza?",
+        "opciones": ["Aljafería", "Alhambra", "Alcázar", "Mezquita de Córdoba"],
+        "respuesta_correcta": "Aljafería"
+      },
+      {
+        "pregunta": "¿Qué nombre recibe la catedral de Zaragoza que convive con la Basílica del Pilar?",
+        "opciones": ["La Seo", "Santa María", "San Isidoro", "La Almudena"],
+        "respuesta_correcta": "La Seo"
+      },
+      {
+        "pregunta": "¿Qué evento internacional albergó Zaragoza en 2008?",
+        "opciones": ["Exposición Internacional", "Juegos Olímpicos", "Expo Mundial", "Cumbre Iberoamericana"],
+        "respuesta_correcta": "Exposición Internacional"
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del parque más grande de Zaragoza?",
+        "opciones": ["Parque Grande José Antonio Labordeta", "Parque del Retiro", "Parque Güell", "Parque María Luisa"],
+        "respuesta_correcta": "Parque Grande José Antonio Labordeta"
+      },
+      {
+        "pregunta": "¿Qué importante pintor aragonés nació cerca de Zaragoza?",
+        "opciones": ["Francisco de Goya", "Diego Velázquez", "El Greco", "Joan Miró"],
+        "respuesta_correcta": "Francisco de Goya"
+      },
+      {
+        "pregunta": "¿Qué nombre recibe el casco histórico de Zaragoza?",
+        "opciones": ["Casco Viejo", "Barri Gòtic", "Centro Antiguo", "Villa Antigua"],
+        "respuesta_correcta": "Casco Viejo"
+      },
+      {
+        "pregunta": "¿Qué tipo de arquitectura destaca en la Basílica del Pilar?",
+        "opciones": ["Barroca", "Gótica", "Mudéjar", "Románica"],
+        "respuesta_correcta": "Barroca"
+      }
+    ]
+  }
+  
