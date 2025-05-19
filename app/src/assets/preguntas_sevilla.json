@@ -1,0 +1,55 @@
+{
+    "Sevilla": [
+      {
+        "pregunta": "¿Cuál es el monumento más emblemático de Sevilla?",
+        "opciones": ["La Giralda", "La Sagrada Familia", "El Acueducto", "La Catedral de León"],
+        "respuesta_correcta": "La Giralda"
+      },
+      {
+        "pregunta": "¿Cómo se llama la famosa plaza donde se rodaron escenas de 'Star Wars' en Sevilla?",
+        "opciones": ["Plaza de España", "Plaza Mayor", "Plaza de la Catedral", "Plaza Nueva"],
+        "respuesta_correcta": "Plaza de España"
+      },
+      {
+        "pregunta": "¿Qué gran río atraviesa la ciudad de Sevilla?",
+        "opciones": ["Guadalquivir", "Ebro", "Duero", "Tajo"],
+        "respuesta_correcta": "Guadalquivir"
+      },
+      {
+        "pregunta": "¿Cuál es el evento más famoso que se celebra en abril en Sevilla?",
+        "opciones": ["Feria de Abril", "San Fermín", "Las Fallas", "Semana Grande"],
+        "respuesta_correcta": "Feria de Abril"
+      },
+      {
+        "pregunta": "¿Qué tipo de danza y música es tradicional de Sevilla?",
+        "opciones": ["Flamenco", "Jota", "Sardana", "Muñeira"],
+        "respuesta_correcta": "Flamenco"
+      },
+      {
+        "pregunta": "¿Qué edificio sevillano fue utilizado como palacio por los reyes moros y cristianos?",
+        "opciones": ["El Alcázar", "La Alhambra", "La Cartuja", "El Escorial"],
+        "respuesta_correcta": "El Alcázar"
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del puente más conocido que cruza el Guadalquivir en Sevilla?",
+        "opciones": ["Puente de Triana", "Puente del Alamillo", "Puente de San Pablo", "Puente de Hierro"],
+        "respuesta_correcta": "Puente de Triana"
+      },
+      {
+        "pregunta": "¿Qué importante fiesta religiosa tiene gran tradición en Sevilla durante la Semana Santa?",
+        "opciones": ["Las procesiones", "La romería del Rocío", "El Corpus Christi", "El Císter"],
+        "respuesta_correcta": "Las procesiones"
+      },
+      {
+        "pregunta": "¿En qué barrio tradicional se originó gran parte del flamenco en Sevilla?",
+        "opciones": ["Triana", "Santa Cruz", "Arenal", "Macarena"],
+        "respuesta_correcta": "Triana"
+      },
+      {
+        "pregunta": "¿Cómo se llama el moderno edificio con forma de seta en el centro de Sevilla?",
+        "opciones": ["Metropol Parasol", "Torre Pelli", "Palacio de Congresos", "Setas de la Alameda"],
+        "respuesta_correcta": "Metropol Parasol"
+      }
+    ]
+  }
+  

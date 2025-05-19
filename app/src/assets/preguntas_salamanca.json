@@ -1,0 +1,55 @@
+{
+    "Salamanca": [
+      {
+        "pregunta": "¿Qué universidad famosa se encuentra en Salamanca?",
+        "opciones": ["Universidad de Salamanca", "Universidad de Madrid", "Universidad de Barcelona", "Universidad de Valencia"],
+        "respuesta_correcta": "Universidad de Salamanca"
+      },
+      {
+        "pregunta": "¿Cómo se llama la famosa plaza del centro de Salamanca?",
+        "opciones": ["Plaza Mayor", "Plaza de España", "Plaza de Cibeles", "Plaza de la Constitución"],
+        "respuesta_correcta": "Plaza Mayor"
+      },
+      {
+        "pregunta": "¿Qué edificio renacentista alberga la Universidad de Salamanca?",
+        "opciones": ["La Casa de las Conchas", "La Catedral Nueva", "La Clerecía", "La Universidad Vieja"],
+        "respuesta_correcta": "La Universidad Vieja"
+      },
+      {
+        "pregunta": "¿Qué famosa iglesia de Salamanca es conocida por su arquitectura barroca?",
+        "opciones": ["La Catedral Nueva", "La Iglesia de San Esteban", "La Iglesia del Salvador", "La Iglesia de San Martín"],
+        "respuesta_correcta": "La Catedral Nueva"
+      },
+      {
+        "pregunta": "¿En qué año fue fundada la Universidad de Salamanca?",
+        "opciones": ["1218", "1492", "1455", "1600"],
+        "respuesta_correcta": "1218"
+      },
+      {
+        "pregunta": "¿Qué edificio de Salamanca tiene una fachada en la que se puede encontrar una rana esculpida?",
+        "opciones": ["La Universidad de Salamanca", "La Casa de las Conchas", "La Catedral Vieja", "La Clerecía"],
+        "respuesta_correcta": "La Universidad de Salamanca"
+      },
+      {
+        "pregunta": "¿Qué río atraviesa la ciudad de Salamanca?",
+        "opciones": ["Río Tormes", "Río Ebro", "Río Duero", "Río Guadalquivir"],
+        "respuesta_correcta": "Río Tormes"
+      },
+      {
+        "pregunta": "¿Cuál es el apodo popular de los habitantes de Salamanca?",
+        "opciones": ["Charros", "Castroneros", "Madrileños", "Andaluces"],
+        "respuesta_correcta": "Charros"
+      },
+      {
+        "pregunta": "¿Qué monumento de Salamanca es conocido como la ‘Catedral Vieja’?",
+        "opciones": ["Catedral de Santa María", "Catedral de la Asunción", "Catedral de la Almudena", "Catedral de Burgos"],
+        "respuesta_correcta": "Catedral de Santa María"
+      },
+      {
+        "pregunta": "¿En qué estilo arquitectónico se construyó la Casa de las Conchas?",
+        "opciones": ["Gótico", "Barroco", "Renacentista", "Mudéjar"],
+        "respuesta_correcta": "Renacentista"
+      }
+    ]
+  }
+  

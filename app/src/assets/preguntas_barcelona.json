@@ -1,0 +1,104 @@
+{
+  "Barcelona": [
+    {
+      "pregunta": "¿Qué famoso templo inacabado se encuentra en Barcelona?",
+      "opciones": [
+        "La Sagrada Familia",
+        "La Catedral de Sevilla",
+        "El Pilar",
+        "La Almudena"
+      ],
+      "respuesta_correcta": "La Sagrada Familia"
+    },
+    {
+      "pregunta": "¿Quién fue el arquitecto principal de la Sagrada Familia?",
+      "opciones": [
+        "Santiago Calatrava",
+        "Frank Gehry",
+        "Antoni Gaudí",
+        "Norman Foster"
+      ],
+      "respuesta_correcta": "Antoni Gaudí"
+    },
+    {
+      "pregunta": "¿Cómo se llama el famoso paseo que conecta la Plaza Cataluña con el puerto?",
+      "opciones": [
+        "La Rambla",
+        "Gran Vía",
+        "Paseo del Prado",
+        "Calle Larios"
+      ],
+      "respuesta_correcta": "La Rambla"
+    },
+    {
+      "pregunta": "¿Cuál es el estadio del FC Barcelona?",
+      "opciones": [
+        "Santiago Bernabéu",
+        "Mestalla",
+        "Camp Nou",
+        "La Rosaleda"
+      ],
+      "respuesta_correcta": "Camp Nou"
+    },
+    {
+      "pregunta": "¿Qué parque diseñado por Gaudí es uno de los más visitados en Barcelona?",
+      "opciones": [
+        "Parque del Retiro",
+        "Parque Güell",
+        "Parque de Montjuic",
+        "Parque María Luisa"
+      ],
+      "respuesta_correcta": "Parque Güell"
+    },
+    {
+      "pregunta": "¿Qué montaña ofrece vistas panorámicas de Barcelona y alberga un parque de atracciones?",
+      "opciones": [
+        "Tibidabo",
+        "Montserrat",
+        "Sierra Nevada",
+        "Teide"
+      ],
+      "respuesta_correcta": "Tibidabo"
+    },
+    {
+      "pregunta": "¿Qué evento deportivo internacional tuvo lugar en Barcelona en 1992?",
+      "opciones": [
+        "Mundial de Fútbol",
+        "Eurocopa",
+        "Juegos Olímpicos",
+        "Copa América"
+      ],
+      "respuesta_correcta": "Juegos Olímpicos"
+    },
+    {
+      "pregunta": "¿Cómo se llama la principal iglesia gótica de Barcelona?",
+      "opciones": [
+        "Santa María del Mar",
+        "Basílica del Pilar",
+        "La Almudena",
+        "Santo Tomé"
+      ],
+      "respuesta_correcta": "Santa María del Mar"
+    },
+    {
+      "pregunta": "¿Cuál es el nombre del barrio más antiguo de Barcelona?",
+      "opciones": [
+        "Barrio Gótico",
+        "El Raval",
+        "Eixample",
+        "Gràcia"
+      ],
+      "respuesta_correcta": "Barrio Gótico"
+    },
+    {
+      "pregunta": "¿Cómo se llama el mercado más famoso de Barcelona?",
+      "opciones": [
+        "La Boquería",
+        "San Miguel",
+        "La Ribera",
+        "San Antón"
+      ],
+      "respuesta_correcta": "La Boquería"
+    }
+  ]
+}
